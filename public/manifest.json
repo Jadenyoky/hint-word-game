@@ -1,0 +1,32 @@
+{
+  "theme_color": "#5c554e",
+  "background_color": "#5c554e",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Hint Word game",
+  "short_name": "Hint game",
+  "description": "Game to try guess word by write number of letters , hint letters and correct it to get the right word ..",
+  "icons": [
+    {
+      "src": "/icon/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

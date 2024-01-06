@@ -155,7 +155,7 @@ export default function Home() {
       generateInputs();
     }, 0);
     return () => clearInterval(interval);
-  }, []);
+  }, [randomWord]);
 
   return (
     <main>
