@@ -1,5 +1,5 @@
 {
-  "name": "hint",
+  "name": "hint-word-game",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "@flaticon/flaticon-uicons": "^3.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "next": "^14.0.4",
+    "only-alphanumeric": "^1.0.0"
   }
 }
