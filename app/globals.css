@@ -106,21 +106,21 @@ body {
 }
 
 .right {
-  background-color: #FF9C0C;
-  color: white !important;
-  font-weight: bold;
-  font-size: 30px !important;
-}
-
-.not-place {
   background-color: #0CA68B;
   color: white !important;
   font-weight: bold;
   font-size: 30px !important;
 }
 
+.not-place {
+  background-color: #FF9C0C;
+  color: white !important;
+  font-weight: bold;
+  font-size: 30px !important;
+}
+
 .wrong {
-  background-color: #282E43;
+  background-color: #FC2903;
   color: white !important;
   font-weight: bold;
   font-size: 30px !important;
@@ -207,15 +207,15 @@ body {
 }
 
 .letter-right::before {
-  background-color: #FF9C0C;
-}
-
-.letter-place::before {
   background-color: #0CA68B;
 }
 
+.letter-place::before {
+  background-color: #FF9C0C;
+}
+
 .letter-wrong::before {
-  background-color: #282E43;
+  background-color: #FC2903;
 }
 
 
@@ -224,7 +224,7 @@ body {
   background-color: white;
   border: 1px solid gainsboro;
   border-radius: 50px;
-  padding: 10px 15px;
+  padding: 15px;
   width: 100%;
   color: grey;
   font-weight: bold;
@@ -233,6 +233,35 @@ body {
 
 .win {
   animation: aaa 0.5s ease;
-  background-color: #0CA68B90;
+
+  background-color: #444;
   color: white;
+  padding: 20px;
+  font-size: 17px;
+
+  p {
+    color: #2de7c5;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+.almost {
+  animation: aaa 0.5s ease;
+  color: grey;
+  background-color: aliceblue;
+}
+
+.lose {
+  animation: aaa 0.5s ease;
+  background-color: crimson;
+  color: white;
+
+  p {
+    color: rgb(85, 248, 106);
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
 }

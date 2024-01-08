@@ -1,10 +1,12 @@
 "use client";
 import { useEffect, useRef } from "react";
 import styles from "./page.module.css";
+import _ from "lodash";
 
 export default function Home() {
   const letters = useRef();
   const checkBtn = useRef();
+  const hintBtn = useRef();
 
   const englishWords = [
     "apple",
@@ -35,15 +37,15 @@ export default function Home() {
     "zeppelin",
   ];
   let randomWord =
-    englishWords[Math.floor(Math.random() * englishWords.length)];
+    englishWords[Math.floor(Math.random() * englishWords.length)].toUpperCase();
 
   let numberTry = 5;
   let numberLetters = randomWord.length;
   let currentTry = 1;
 
   console.log(randomWord, numberLetters);
-
   function generateInputs() {
+    checkBtn.current.disabled = true;
     for (let i = 1; i <= numberTry; i++) {
       const tryDiv = document.createElement("div");
       tryDiv.classList.add(`try-${i}`);
@@ -75,6 +77,7 @@ export default function Home() {
     const inputs = document.querySelectorAll("input");
     inputs.forEach((input, index) => {
       input.oninput = () => {
+        checkBtn.current.disabled = false;
         const next = inputs[index + 1];
         const prev = inputs[index - 1];
         if (next && input.value !== "" && input.value !== " ") {
@@ -91,7 +94,6 @@ export default function Home() {
         //     inputs[index].classList.remove("wrong");
         //   }
         // }
-        console.log(inputs[index], inputs[index].value);
       };
       input.onkeydown = (e) => {
         const current = Array.from(inputs).indexOf(e.target);
@@ -111,43 +113,85 @@ export default function Home() {
   }
 
   function check() {
-    let success = true;
+    const tip = document.querySelector(".tip");
+    // let success = true;
+    let arrayLetters = [];
+    let arrayWord = [];
     // checkBtn.current.disabled = true;
     for (let i = 1; i <= numberLetters; i++) {
       const input = document.querySelector(`#try-${currentTry}-letter-${i}`);
-      const letter = input.value;
+      const letter = input.value.toUpperCase();
       const currentLetter = randomWord[i - 1];
-
-      // console.log(input);
-
-      if (letter === currentLetter) {
+      arrayLetters.push(letter);
+      arrayWord.push(currentLetter);
+      // console.log(letter, currentLetter);
+      if (letter == currentLetter) {
         input.classList.add("right");
+        input.disabled = true;
       } else if (randomWord.includes(letter) && letter !== "") {
         input.classList.add("not-place");
-        success = false;
+        input.disabled = true;
       } else if (!randomWord.includes(letter) && letter !== "") {
         input.classList.add("wrong");
-        success = false;
-      }
-      if (
-        input.classList.contains("right") ||
-        input.classList.contains("not-place") ||
-        input.classList.contains("wrong")
-      ) {
         input.disabled = true;
       }
 
-      const tip = document.querySelector(".tip");
-      if (success && letter !== "") {
-        tip.textContent = `Great! You Win ... The Word is ${randomWord}`;
-        tip.classList.add("win");
+      // console.log(letter, currentLetter);
+    }
 
-        // console.log(letter, currentLetter);
-      } else if (!success && letter !== "") {
-        tip.textContent = `Wrong! ... Try Again`;
+    const result = _.isEqual(arrayLetters, arrayWord);
+    const still = _.difference(arrayWord, arrayLetters);
+
+    if (result === true && still.length <= 0) {
+      checkBtn.current.disabled = true;
+      hintBtn.current.disabled = true;
+
+      tip.innerHTML = `Great! You Win ... The Word is
+        <p>${randomWord.toUpperCase()}</p>`;
+      tip.classList.add("win");
+      tip.classList.remove("almost");
+      tip.classList.remove("lose");
+    } else if (still.length > (50 / 100) * randomWord.length) {
+      tip.innerHTML = `Wrong!, Try Again ..`;
+      tip.classList.add("lose");
+      tip.classList.remove("almost");
+    } else if (still.length <= (50 / 100) * randomWord.length) {
+      tip.innerHTML = `<p>Good! You're Almost ..</p>`;
+      tip.classList.add("almost");
+      tip.classList.remove("lose");
+    }
+
+    if (result === false && !arrayLetters.includes("")) {
+      const tryNow = document.querySelector(`.try-${currentTry}`);
+      tryNow.classList.add("input-disabled");
+
+      const current = document.querySelectorAll(`.try-${currentTry} input`);
+      current.forEach((element) => {
+        element.disabled = true;
+        console.log("current", element);
+      });
+
+      currentTry++;
+
+      const next = document.querySelectorAll(`.try-${currentTry} input`);
+      next.forEach((element) => {
+        element.disabled = false;
+      });
+
+      const tryNext = document.querySelector(`.try-${currentTry}`);
+      if (tryNext) {
+        tryNext.classList.remove("input-disabled");
+        tryNext.children[1].focus();
+      } else {
+        checkBtn.current.disabled = true;
+        hintBtn.current.disabled = true;
+        tip.innerHTML = `Sorry! You Lose ... The Word is
+        <p>${randomWord.toUpperCase()}</p>`;
         tip.classList.add("lose");
       }
     }
+
+    console.log((50 / 100) * randomWord.length, still, result);
   }
 
   useEffect(() => {
@@ -155,7 +199,7 @@ export default function Home() {
       generateInputs();
     }, 0);
     return () => clearInterval(interval);
-  }, [randomWord]);
+  }, []);
 
   return (
     <main>
@@ -170,7 +214,7 @@ export default function Home() {
             <button onClick={check} ref={checkBtn}>
               Check Word
             </button>
-            <button>Hint</button>
+            <button ref={hintBtn}>Hint</button>
           </div>
 
           <div className="tip">Typing Letters in Fields ...</div>
