@@ -42,6 +42,8 @@ export default function Home() {
   let numberTry = 5;
   let numberLetters = randomWord.length;
   let currentTry = 1;
+  let arrayLetters;
+  let arrayWord;
 
   console.log(randomWord, numberLetters);
   function generateInputs() {
@@ -115,8 +117,9 @@ export default function Home() {
   function check() {
     const tip = document.querySelector(".tip");
     // let success = true;
-    let arrayLetters = [];
-    let arrayWord = [];
+    arrayLetters = [];
+    arrayWord = [];
+    let percent = (50 / 100) * randomWord.length;
     // checkBtn.current.disabled = true;
     for (let i = 1; i <= numberLetters; i++) {
       const input = document.querySelector(`#try-${currentTry}-letter-${i}`);
@@ -141,6 +144,7 @@ export default function Home() {
 
     const result = _.isEqual(arrayLetters, arrayWord);
     const still = _.difference(arrayWord, arrayLetters);
+    let hint = still.length;
 
     if (result === true && still.length <= 0) {
       checkBtn.current.disabled = true;
@@ -151,11 +155,11 @@ export default function Home() {
       tip.classList.add("win");
       tip.classList.remove("almost");
       tip.classList.remove("lose");
-    } else if (still.length > (50 / 100) * randomWord.length) {
+    } else if (still.length > percent) {
       tip.innerHTML = `Wrong!, Try Again ..`;
       tip.classList.add("lose");
       tip.classList.remove("almost");
-    } else if (still.length <= (50 / 100) * randomWord.length) {
+    } else if (still.length <= percent) {
       tip.innerHTML = `<p>Good! You're Almost ..</p>`;
       tip.classList.add("almost");
       tip.classList.remove("lose");
@@ -191,7 +195,8 @@ export default function Home() {
       }
     }
 
-    console.log((50 / 100) * randomWord.length, still, result);
+    console.log(percent, still, result);
+    console.log(arrayLetters, arrayWord, result, still);
   }
 
   useEffect(() => {

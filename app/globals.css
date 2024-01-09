@@ -101,7 +101,7 @@ body {
 
 .input-disabled {
   opacity: 0.5;
-  pointer-events: none;
+  /* pointer-events: none; */
   transition: 0.4s ease;
 }
 
