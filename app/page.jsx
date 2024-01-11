@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./page.module.css";
 import _ from "lodash";
 
@@ -42,10 +42,12 @@ export default function Home() {
   let numberTry = 5;
   let numberLetters = randomWord.length;
   let currentTry = 1;
+
+  let numberHint = 4;
+
   let arrayLetters;
   let arrayWord;
 
-  console.log(randomWord, numberLetters);
   function generateInputs() {
     checkBtn.current.disabled = true;
     for (let i = 1; i <= numberTry; i++) {
@@ -87,15 +89,6 @@ export default function Home() {
         } else if (prev && input.value === "") {
           prev.focus();
         }
-        // if (inputs[index].value === "" || inputs[index].value === " ") {
-        //   if (inputs[index].classList.contains("right")) {
-        //     inputs[index].classList.remove("right");
-        //   } else if (inputs[index].classList.contains("not-place")) {
-        //     inputs[index].classList.remove("not-place");
-        //   } else if (inputs[index].classList.contains("wrong")) {
-        //     inputs[index].classList.remove("wrong");
-        //   }
-        // }
       };
       input.onkeydown = (e) => {
         const current = Array.from(inputs).indexOf(e.target);
@@ -128,7 +121,7 @@ export default function Home() {
       arrayLetters.push(letter);
       arrayWord.push(currentLetter);
       // console.log(letter, currentLetter);
-      if (letter == currentLetter) {
+      if (letter === currentLetter) {
         input.classList.add("right");
         input.disabled = true;
       } else if (randomWord.includes(letter) && letter !== "") {
@@ -144,7 +137,6 @@ export default function Home() {
 
     const result = _.isEqual(arrayLetters, arrayWord);
     const still = _.difference(arrayWord, arrayLetters);
-    let hint = still.length;
 
     if (result === true && still.length <= 0) {
       checkBtn.current.disabled = true;
@@ -168,7 +160,6 @@ export default function Home() {
     if (result === false && !arrayLetters.includes("")) {
       const tryNow = document.querySelector(`.try-${currentTry}`);
       tryNow.classList.add("input-disabled");
-
       const current = document.querySelectorAll(`.try-${currentTry} input`);
       current.forEach((element) => {
         element.disabled = true;
@@ -199,6 +190,29 @@ export default function Home() {
     console.log(arrayLetters, arrayWord, result, still);
   }
 
+  function getHint() {
+    if (numberHint > 0) {
+      numberHint--;
+      hintBtn.current.children[0].innerHTML = numberHint;
+      checkBtn.current.disabled = false;
+    }
+    if (numberHint === 0) {
+      hintBtn.current.disabled = true;
+    }
+
+    const enable = document.querySelectorAll("input:not([disabled])");
+    const empty = Array.from(enable).filter((elem) => elem.value === "");
+    if (empty.length > 0) {
+      empty[0].focus();
+      const randomIndex = Math.floor(Math.random() * empty.length);
+      const randomInput = empty[randomIndex];
+      const fill = Array.from(enable).indexOf(randomInput);
+      if (fill !== -1) {
+        randomInput.value = randomWord[fill].toUpperCase();
+      }
+    }
+  }
+
   useEffect(() => {
     const interval = setTimeout(() => {
       generateInputs();
@@ -219,7 +233,9 @@ export default function Home() {
             <button onClick={check} ref={checkBtn}>
               Check Word
             </button>
-            <button ref={hintBtn}>Hint</button>
+            <button ref={hintBtn} onClick={getHint}>
+              Hint <span>{numberHint}</span>
+            </button>
           </div>
 
           <div className="tip">Typing Letters in Fields ...</div>

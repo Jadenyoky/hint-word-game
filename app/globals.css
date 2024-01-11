@@ -138,10 +138,9 @@ body {
 
 .options>button:nth-child(1) {
   &:disabled {
-    background-color: rgba(128, 128, 128, 0.418);
+    background-color: rgba(128, 128, 128, 0.2);
     color: dimgray;
   }
-
 
   background-color: #fc2903;
   color: white;
@@ -158,6 +157,11 @@ body {
 
 
 .options>button:nth-child(2) {
+  &:disabled {
+    /* background-color: rgba(128, 128, 128, 0.418); */
+    opacity: 0.5;
+  }
+
   background-color: #00787E;
   color: white;
   border: 0;
