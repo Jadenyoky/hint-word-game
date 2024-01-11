@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import styles from "./page.module.css";
+// import styles from "./page.module.css";
 import _ from "lodash";
 import { useRouter } from "next/navigation";
 
@@ -12,7 +12,6 @@ export default function Home() {
   const info = useRef();
   const [change, setchange] = useState(false);
   // const [info, setinfo] = useState(false);
-
   const englishWords = [
     "apple",
     "banana",
@@ -256,7 +255,7 @@ export default function Home() {
             onClick={() => {
               setchange(false);
               // setinfo(false);
-              router.push("/game");
+              router.push("/");
             }}
           >
             <img src="/pics/cancel.png" />
