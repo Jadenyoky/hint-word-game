@@ -162,6 +162,13 @@ body {
     opacity: 0.5;
   }
 
+  span {
+    color: grey;
+    background-color: #EEEDEF;
+    border-radius: 16px;
+    padding: 5px 10px;
+  }
+
   background-color: #00787E;
   color: white;
   border: 0;

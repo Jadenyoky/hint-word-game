@@ -43,12 +43,16 @@ export default function Home() {
   let numberLetters = randomWord.length;
   let currentTry = 1;
 
-  let numberHint = 4;
-
+  let numberHint = 0;
   let arrayLetters;
   let arrayWord;
-
+  function generateNum() {
+    const rr = numberLetters / 2;
+    numberHint = rr.toFixed();
+    hintBtn.current.children[0].innerHTML = numberHint;
+  }
   function generateInputs() {
+    generateNum();
     checkBtn.current.disabled = true;
     for (let i = 1; i <= numberTry; i++) {
       const tryDiv = document.createElement("div");
@@ -106,7 +110,6 @@ export default function Home() {
       };
     });
   }
-
   function check() {
     const tip = document.querySelector(".tip");
     // let success = true;
@@ -130,6 +133,9 @@ export default function Home() {
       } else if (!randomWord.includes(letter) && letter !== "") {
         input.classList.add("wrong");
         input.disabled = true;
+      }
+      if (letter !== "" || numberHint === 0) {
+        hintBtn.current.disabled = true;
       }
 
       // console.log(letter, currentLetter);
@@ -158,6 +164,10 @@ export default function Home() {
     }
 
     if (result === false && !arrayLetters.includes("")) {
+      if (numberHint > 0) {
+        hintBtn.current.disabled = false;
+      }
+
       const tryNow = document.querySelector(`.try-${currentTry}`);
       tryNow.classList.add("input-disabled");
       const current = document.querySelectorAll(`.try-${currentTry} input`);
