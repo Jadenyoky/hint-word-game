@@ -9,6 +9,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #EEEDEF;
 }
 
 .header {
@@ -50,8 +51,7 @@ body {
 }
 
 .container {
-  background-color: #EEEDEF;
-  min-height: calc(100vh - 50px);
+  /* min-height: calc(100vh - 50px); */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -66,6 +66,18 @@ body {
   gap: 30px;
   /* width: 500px; */
   max-width: 95%;
+  align-items: center;
+}
+
+.num {
+  background: white;
+  color: mediumslateblue;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  width: fit-content;
+  height: 30px;
 }
 
 .side-game>.letters {
@@ -344,7 +356,7 @@ body {
   gap: 20px;
 
   p {
-    color: 0CA68B;
+    color: white;
     text-shadow: 0px 0px 10px #0CA68B;
     font-size: 24px;
     font-weight: bold;
