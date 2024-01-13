@@ -1,0 +1,2383 @@
+[
+  {
+    "name": "Afghanistan",
+    "length": 11,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "أفغانستان"
+  },
+  {
+    "name": "Albania",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "ألبانيا"
+  },
+  {
+    "name": "Algeria",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "الجزائر"
+  },
+  {
+    "name": "Andorra",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "أندورا"
+  },
+  {
+    "name": "Angola",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "أنغولا"
+  },
+  {
+    "name": "Antigua",
+    "length": 7,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "أنتيغوا وبربودا"
+  },
+  {
+    "name": "Argentina",
+    "length": 9,
+    "category": "South America",
+    "mode": "Hard",
+    "translation": "الأرجنتين"
+  },
+  {
+    "name": "Armenia",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "أرمينيا"
+  },
+  {
+    "name": "Australia",
+    "length": 9,
+    "category": "Oceania",
+    "mode": "Hard",
+    "translation": "أستراليا"
+  },
+  {
+    "name": "Austria",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "النمسا"
+  },
+  {
+    "name": "Azerbaijan",
+    "length": 8,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "أذربيجان"
+  },
+  {
+    "name": "Bahamas",
+    "length": 7,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "الباهاما"
+  },
+  {
+    "name": "Bahrain",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "البحرين"
+  },
+  {
+    "name": "Bangladesh",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "بنغلاديش"
+  },
+  {
+    "name": "Barbados",
+    "length": 8,
+    "category": "North America",
+    "mode": "Hard",
+    "translation": "بربادوس"
+  },
+  {
+    "name": "Belarus",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "بيلاروس"
+  },
+  {
+    "name": "Belgium",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "بلجيكا"
+  },
+  {
+    "name": "Belize",
+    "length": 6,
+    "category": "North America",
+    "mode": "Easy",
+    "translation": "بليز"
+  },
+  {
+    "name": "Benin",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "بنين"
+  },
+  {
+    "name": "Bhutan",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "بوتان"
+  },
+  {
+    "name": "Bolivia",
+    "length": 7,
+    "category": "South America",
+    "mode": "Average",
+    "translation": "بوليفيا"
+  },
+  {
+    "name": "Botswana",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "بتسوانا"
+  },
+  {
+    "name": "Brazil",
+    "length": 6,
+    "category": "South America",
+    "mode": "Easy",
+    "translation": "البرازيل"
+  },
+  {
+    "name": "Brunei",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "بروناي"
+  },
+  {
+    "name": "Bulgaria",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "بلغاريا"
+  },
+  {
+    "name": "Burkina",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "بوركينا فاسو"
+  },
+  {
+    "name": "Burundi",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "بوروندي"
+  },
+  {
+    "name": "Cambodia",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "كمبوديا"
+  },
+  {
+    "name": "Cameroon",
+    "length": 8,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "الكاميرون"
+  },
+  {
+    "name": "Canada",
+    "length": 6,
+    "category": "North America",
+    "mode": "Easy",
+    "translation": "كندا"
+  },
+  {
+    "name": "Chad",
+    "length": 4,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "تشاد"
+  },
+  {
+    "name": "Chile",
+    "length": 5,
+    "category": "South America",
+    "mode": "Easy",
+    "translation": "تشيلي"
+  },
+  {
+    "name": "China",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "الصين"
+  },
+  {
+    "name": "Colombia",
+    "length": 8,
+    "category": "South America",
+    "mode": "Average",
+    "translation": "كولومبيا"
+  },
+  {
+    "name": "Comoros",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "جزر القمر"
+  },
+  {
+    "name": "Congo",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "الكونغو"
+  },
+  {
+    "name": "Costarica",
+    "length": 9,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "كوستاريكا"
+  },
+  {
+    "name": "Croatia",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "كرواتيا"
+  },
+  {
+    "name": "Cuba",
+    "length": 4,
+    "category": "North America",
+    "mode": "Easy",
+    "translation": "كوبا"
+  },
+  {
+    "name": "Cyprus",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "قبرص"
+  },
+  {
+    "name": "Czech",
+    "length": 5,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "التشيك"
+  },
+  {
+    "name": "Denmark",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "الدنمارك"
+  },
+  {
+    "name": "Djibouti",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "جيبوتي"
+  },
+  {
+    "name": "Dominican",
+    "length": 9,
+    "category": "North America",
+    "mode": "Hard",
+    "translation": "الدومينيكان"
+  },
+  {
+    "name": "Ecuador",
+    "length": 7,
+    "category": "South America",
+    "mode": "Average",
+    "translation": "الإكوادور"
+  },
+  {
+    "name": "Egypt",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "مصر"
+  },
+  {
+    "name": "Salvador",
+    "length": 7,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "السلفادور"
+  },
+  {
+    "name": "Eritrea",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "إريتريا"
+  },
+  {
+    "name": "Estonia",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "إستونيا"
+  },
+  {
+    "name": "Eswatini",
+    "length": 8,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "إسواتيني"
+  },
+  {
+    "name": "Ethiopia",
+    "length": 8,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "إثيوبيا"
+  },
+  {
+    "name": "Fiji",
+    "length": 4,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "فيجي"
+  },
+  {
+    "name": "Finland",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "فنلندا"
+  },
+  {
+    "name": "France",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "فرنسا"
+  },
+  {
+    "name": "Gabon",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "الغابون"
+  },
+  {
+    "name": "Gambia",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "غامبيا"
+  },
+  {
+    "name": "Georgia",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "جورجيا"
+  },
+  {
+    "name": "Germany",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "ألمانيا"
+  },
+  {
+    "name": "Ghana",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "غانا"
+  },
+  {
+    "name": "Greece",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "اليونان"
+  },
+  {
+    "name": "Grenada",
+    "length": 7,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "غرينادا"
+  },
+  {
+    "name": "Guatemala",
+    "length": 8,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "غواتيمالا"
+  },
+  {
+    "name": "Guinea",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "غينيا"
+  },
+  {
+    "name": "Guyana",
+    "length": 6,
+    "category": "South America",
+    "mode": "Easy",
+    "translation": "غيانا"
+  },
+  {
+    "name": "Haiti",
+    "length": 5,
+    "category": "North America",
+    "mode": "Easy",
+    "translation": "هايتي"
+  },
+  {
+    "name": "Honduras",
+    "length": 8,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "هندوراس"
+  },
+  {
+    "name": "Hungary",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "المجر"
+  },
+  {
+    "name": "Iceland",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "آيسلندا"
+  },
+
+  {
+    "name": "India",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "الهند"
+  },
+  {
+    "name": "Indonesia",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "إندونيسيا"
+  },
+  {
+    "name": "Iran",
+    "length": 4,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "إيران"
+  },
+  {
+    "name": "Iraq",
+    "length": 4,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "العراق"
+  },
+  {
+    "name": "Ireland",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "أيرلندا"
+  },
+  {
+    "name": "Palestine",
+    "length": 8,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "فلسطين"
+  },
+  {
+    "name": "Italy",
+    "length": 5,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "إيطاليا"
+  },
+  {
+    "name": "Ivorycoast",
+    "length": 9,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "ساحل العاج"
+  },
+  {
+    "name": "Jamaica",
+    "length": 7,
+    "category": "North America",
+    "mode": "Average",
+    "translation": "جامايكا"
+  },
+  {
+    "name": "Japan",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "اليابان"
+  },
+  {
+    "name": "Jordan",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "الأردن"
+  },
+  {
+    "name": "Kazakhstan",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "كازاخستان"
+  },
+  {
+    "name": "Kenya",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "كينيا"
+  },
+  {
+    "name": "Kiribati",
+    "length": 7,
+    "category": "Oceania",
+    "mode": "Average",
+    "translation": "كيريباتي"
+  },
+  {
+    "name": "Kosovo",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "كوسوفو"
+  },
+  {
+    "name": "Kuwait",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "الكويت"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "قيرغيزستان"
+  },
+  {
+    "name": "Laos",
+    "length": 4,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "لاوس"
+  },
+  {
+    "name": "Latvia",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "لاتفيا"
+  },
+  {
+    "name": "Lebanon",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "لبنان"
+  },
+  {
+    "name": "Lesotho",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "ليسوتو"
+  },
+  {
+    "name": "Liberia",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "ليبيريا"
+  },
+  {
+    "name": "Libya",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "ليبيا"
+  },
+  {
+    "name": "Liechtenstein",
+    "length": 12,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "ليختنشتاين"
+  },
+  {
+    "name": "Lithuania",
+    "length": 8,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "ليتوانيا"
+  },
+  {
+    "name": "Luxembourg",
+    "length": 9,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "لوكسمبورغ"
+  },
+  {
+    "name": "Madagascar",
+    "length": 10,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "مدغشقر"
+  },
+  {
+    "name": "Malawi",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "ملاوي"
+  },
+  {
+    "name": "Malaysia",
+    "length": 8,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "ماليزيا"
+  },
+  {
+    "name": "Maldives",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "المالديف"
+  },
+  {
+    "name": "Mali",
+    "length": 4,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "مالي"
+  },
+  {
+    "name": "Malta",
+    "length": 5,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "مالطا"
+  },
+  {
+    "name": "Marshall",
+    "length": 8,
+    "category": "Oceania",
+    "mode": "Average",
+    "translation": "جزر المارشال"
+  },
+  {
+    "name": "Mauritania",
+    "length": 9,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "موريتانيا"
+  },
+  {
+    "name": "Mauritius",
+    "length": 8,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "موريشيوس"
+  },
+  {
+    "name": "Mexico",
+    "length": 6,
+    "category": "North America",
+    "mode": "Easy",
+    "translation": "المكسيك"
+  },
+  {
+    "name": "Micronesia",
+    "length": 9,
+    "category": "Oceania",
+    "mode": "Hard",
+    "translation": "ميكرونيزيا"
+  },
+  {
+    "name": "Moldova",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "مولدوفا"
+  },
+  {
+    "name": "Mongolia",
+    "length": 8,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "منغوليا"
+  },
+  {
+    "name": "Montenegro",
+    "length": 9,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "الجبل الأسود"
+  },
+  {
+    "name": "Morocco",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "المغرب"
+  },
+  {
+    "name": "Mozambique",
+    "length": 9,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "موزمبيق"
+  },
+  {
+    "name": "Myanmar",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "ميانمار"
+  },
+  {
+    "name": "Namibia",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "ناميبيا"
+  },
+  {
+    "name": "Nauru",
+    "length": 5,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "ناورو"
+  },
+  {
+    "name": "Nepal",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "نيبال"
+  },
+  {
+    "name": "Netherlands",
+    "length": 10,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "هولندا"
+  },
+  {
+    "name": "Nicaragua",
+    "length": 8,
+    "category": "North America",
+    "mode": "Hard",
+    "translation": "نيكاراغوا"
+  },
+  {
+    "name": "Niger",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "النيجر"
+  },
+  {
+    "name": "Nigeria",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "نيجيريا"
+  },
+  {
+    "name": "Norway",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "النرويج"
+  },
+  {
+    "name": "Oman",
+    "length": 4,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "عمان"
+  },
+  {
+    "name": "Pakistan",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "باكستان"
+  },
+  {
+    "name": "Palau",
+    "length": 5,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "بالاو"
+  },
+  {
+    "name": "Panama",
+    "length": 6,
+    "category": "North America",
+    "mode": "Easy",
+    "translation": "بنما"
+  },
+  {
+    "name": "Papua",
+    "length": 5,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "بابوا غينيا "
+  },
+  {
+    "name": "Paraguay",
+    "length": 8,
+    "category": "South America",
+    "mode": "Hard",
+    "translation": "باراغواي"
+  },
+  {
+    "name": "Peru",
+    "length": 4,
+    "category": "South America",
+    "mode": "Easy",
+    "translation": "بيرو"
+  },
+  {
+    "name": "Philippines",
+    "length": 11,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "الفلبين"
+  },
+  {
+    "name": "Poland",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "بولندا"
+  },
+  {
+    "name": "Portugal",
+    "length": 8,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "البرتغال"
+  },
+  {
+    "name": "Qatar",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "قطر"
+  },
+  {
+    "name": "Romania",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "رومانيا"
+  },
+  {
+    "name": "Russia",
+    "length": 6,
+    "category": "Europe/Asia",
+    "mode": "Easy",
+    "translation": "روسيا"
+  },
+  {
+    "name": "Rwanda",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "رواندا"
+  },
+  {
+    "name": "Samoa",
+    "length": 5,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "ساموا"
+  },
+  {
+    "name": "Senegal",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "السنغال"
+  },
+  {
+    "name": "Serbia",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "صربيا"
+  },
+  {
+    "name": "Seychelles",
+    "length": 9,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "سيشل"
+  },
+  {
+    "name": "Sierraleone",
+    "length": 10,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "سيراليون"
+  },
+  {
+    "name": "Singapore",
+    "length": 8,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "سنغافورة"
+  },
+  {
+    "name": "Slovakia",
+    "length": 8,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "سلوفاكيا"
+  },
+  {
+    "name": "Slovenia",
+    "length": 8,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "سلوفينيا"
+  },
+  {
+    "name": "Solomon",
+    "length": 6,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "جزر سليمان"
+  },
+  {
+    "name": "Somalia",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "الصومال"
+  },
+  {
+    "name": "Spain",
+    "length": 5,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "إسبانيا"
+  },
+
+  {
+    "name": "Srilanka",
+    "length": 8,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "سريلانكا"
+  },
+  {
+    "name": "Sudan",
+    "length": 5,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "السودان"
+  },
+  {
+    "name": "Suriname",
+    "length": 8,
+    "category": "South America",
+    "mode": "Hard",
+    "translation": "سورينام"
+  },
+  {
+    "name": "Sweden",
+    "length": 6,
+    "category": "Europe",
+    "mode": "Easy",
+    "translation": "السويد"
+  },
+  {
+    "name": "Switzerland",
+    "length": 10,
+    "category": "Europe",
+    "mode": "Hard",
+    "translation": "سويسرا"
+  },
+  {
+    "name": "Syria",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "سوريا"
+  },
+  {
+    "name": "Taiwan",
+    "length": 6,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "تايوان"
+  },
+  {
+    "name": "Tajikistan",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "طاجيكستان"
+  },
+  {
+    "name": "Tanzania",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "تنزانيا"
+  },
+  {
+    "name": "Thailand",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "تايلاند"
+  },
+  {
+    "name": "Togo",
+    "length": 4,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "توجو"
+  },
+  {
+    "name": "Tonga",
+    "length": 5,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "تونغا"
+  },
+  {
+    "name": "Trinidad",
+    "length": 8,
+    "category": "North America",
+    "mode": "Hard",
+    "translation": "ترينيداد"
+  },
+  {
+    "name": "Tunisia",
+    "length": 7,
+    "category": "Africa",
+    "mode": "Average",
+    "translation": "تونس"
+  },
+  {
+    "name": "Turkey",
+    "length": 6,
+    "category": "Asia/Europe",
+    "mode": "Easy",
+    "translation": "تركيا"
+  },
+  {
+    "name": "Turkmenistan",
+    "length": 11,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "تركمانستان"
+  },
+  {
+    "name": "Tuvalu",
+    "length": 6,
+    "category": "Oceania",
+    "mode": "Easy",
+    "translation": "توفالو"
+  },
+  {
+    "name": "Uganda",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "أوغندا"
+  },
+  {
+    "name": "Ukraine",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "أوكرانيا"
+  },
+  {
+    "name": "Uruguay",
+    "length": 7,
+    "category": "South America",
+    "mode": "Average",
+    "translation": "أوروغواي"
+  },
+  {
+    "name": "Uzbekistan",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "أوزبكستان"
+  },
+  {
+    "name": "Vanuatu",
+    "length": 7,
+    "category": "Oceania",
+    "mode": "Average",
+    "translation": "فانواتو"
+  },
+  {
+    "name": "Vatican",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "الفاتيكان"
+  },
+  {
+    "name": "SaudiArabia",
+    "length": 11,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "المملكة العربية السعودية"
+  },
+  {
+    "name": "Venezuela",
+    "length": 8,
+    "category": "South America",
+    "mode": "Hard",
+    "translation": "فنزويلا"
+  },
+  {
+    "name": "Vietnam",
+    "length": 7,
+    "category": "Asia",
+    "mode": "Average",
+    "translation": "فيتنام"
+  },
+  {
+    "name": "Yemen",
+    "length": 5,
+    "category": "Asia",
+    "mode": "Easy",
+    "translation": "اليمن"
+  },
+  {
+    "name": "Zambia",
+    "length": 6,
+    "category": "Africa",
+    "mode": "Easy",
+    "translation": "زامبيا"
+  },
+  {
+    "name": "Zimbabwe",
+    "length": 8,
+    "category": "Africa",
+    "mode": "Hard",
+    "translation": "زيمبابوي"
+  },
+  {
+    "name": "NorthKorea",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "كوريا الشمالية"
+  },
+  {
+    "name": "SouthKorea",
+    "length": 9,
+    "category": "Asia",
+    "mode": "Hard",
+    "translation": "كوريا الجنوبية"
+  },
+  {
+    "name": "England",
+    "length": 7,
+    "category": "Europe",
+    "mode": "Average",
+    "translation": "إنجلترا"
+  },
+
+  {
+    "name": "Dog",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "كلب"
+  },
+  {
+    "name": "Cow",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "بقرة"
+  },
+  {
+    "name": "Cat",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "قطة"
+  },
+  {
+    "name": "Horse",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "حصان"
+  },
+  {
+    "name": "Tiger",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "نمر"
+  },
+  {
+    "name": "Lion",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "أسد"
+  },
+  {
+    "name": "Panther",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "فهد"
+  },
+  {
+    "name": "Leopard",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "نمر"
+  },
+  {
+    "name": "Cheetah",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "فهد"
+  },
+  {
+    "name": "Bear",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "دب"
+  },
+  {
+    "name": "Elephant",
+    "length": 8,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "فيل"
+  },
+
+  {
+    "name": "Turtle",
+    "length": 6,
+    "category": "Reptile",
+    "mode": "Average",
+    "translation": "سلحفاة"
+  },
+  {
+    "name": "Tortoise",
+    "length": 8,
+    "category": "Reptile",
+    "mode": "Average",
+    "translation": "سلحفاة"
+  },
+  {
+    "name": "Crocodile",
+    "length": 8,
+    "category": "Reptile",
+    "mode": "Average",
+    "translation": "تمساح"
+  },
+  {
+    "name": "Rabbit",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "أرنب"
+  },
+  {
+    "name": "Porcupine",
+    "length": 8,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "قنفذ"
+  },
+  {
+    "name": "Hare",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "أرنب"
+  },
+  {
+    "name": "Hen",
+    "length": 3,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "دجاجة"
+  },
+  {
+    "name": "Pigeon",
+    "length": 6,
+    "category": "Bird",
+    "mode": "Average",
+    "translation": "حمامة"
+  },
+  {
+    "name": "Albatross",
+    "length": 8,
+    "category": "Bird",
+    "mode": "Average",
+    "translation": "البتروس"
+  },
+  {
+    "name": "Crow",
+    "length": 4,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "غراب"
+  },
+  {
+    "name": "Fish",
+    "length": 4,
+    "category": "Aquatic",
+    "mode": "Easy",
+    "translation": "سمك"
+  },
+  {
+    "name": "Dolphin",
+    "length": 7,
+    "category": "Aquatic",
+    "mode": "Average",
+    "translation": "دلفين"
+  },
+  {
+    "name": "Frog",
+    "length": 4,
+    "category": "Amphibian",
+    "mode": "Easy",
+    "translation": "ضفدع"
+  },
+  {
+    "name": "Whale",
+    "length": 5,
+    "category": "Aquatic",
+    "mode": "Easy",
+    "translation": "حوت"
+  },
+  {
+    "name": "Alligator",
+    "length": 9,
+    "category": "Reptile",
+    "mode": "Hard",
+    "translation": "تمساح"
+  },
+  {
+    "name": "Eagle",
+    "length": 5,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "نسر"
+  },
+
+  {
+    "name": "Ostrich",
+    "length": 7,
+    "category": "Bird",
+    "mode": "Average",
+    "translation": "نعامة"
+  },
+  {
+    "name": "Fox",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "ثعلب"
+  },
+  {
+    "name": "Goat",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "ماعز"
+  },
+  {
+    "name": "Jackal",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "ذئب"
+  },
+  {
+    "name": "Emu",
+    "length": 3,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "إيمو"
+  },
+  {
+    "name": "Armadillo",
+    "length": 9,
+    "category": "Mammal",
+    "mode": "Hard",
+    "translation": "أرماديلو"
+  },
+  {
+    "name": "Eel",
+    "length": 3,
+    "category": "Aquatic",
+    "mode": "Easy",
+    "translation": "ثعبان البحر"
+  },
+  {
+    "name": "Goose",
+    "length": 4,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "وزة"
+  },
+
+  {
+    "name": "Wolf",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "ذئب"
+  },
+  {
+    "name": "Beagle",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "بيغل"
+  },
+  {
+    "name": "Gorilla",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "غوريلا"
+  },
+  {
+    "name": "Chimpanzee",
+    "length": 10,
+    "category": "Mammal",
+    "mode": "Hard",
+    "translation": "شمبانزي"
+  },
+  {
+    "name": "Monkey",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "قرد"
+  },
+  {
+    "name": "Beaver",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "قندس"
+  },
+  {
+    "name": "Orangutan",
+    "length": 8,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "أورانغوتان"
+  },
+  {
+    "name": "Antelope",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "ظبي"
+  },
+  {
+    "name": "Bat",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "خفاش"
+  },
+  {
+    "name": "Badger",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "جرذ"
+  },
+  {
+    "name": "Giraffe",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "زرافة"
+  },
+
+  {
+    "name": "Hamster",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "هامستر"
+  },
+  {
+    "name": "Cobra",
+    "length": 5,
+    "category": "Reptile",
+    "mode": "Easy",
+    "translation": "كوبرا"
+  },
+
+  {
+    "name": "Camel",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "جمل"
+  },
+  {
+    "name": "Hawk",
+    "length": 4,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "صقر"
+  },
+  {
+    "name": "Deer",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "غزال"
+  },
+  {
+    "name": "Chameleon",
+    "length": 8,
+    "category": "Reptile",
+    "mode": "Average",
+    "translation": "كاميليون"
+  },
+  {
+    "name": "Hippopotamus",
+    "length": 11,
+    "category": "Mammal",
+    "mode": "Hard",
+    "translation": "فيل نهري"
+  },
+  {
+    "name": "Jaguar",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "جاغوار"
+  },
+  {
+    "name": "Chihuahua",
+    "length": 8,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "تشيهواهوا"
+  },
+
+  {
+    "name": "Ibex",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "وعل"
+  },
+  {
+    "name": "Lizard",
+    "length": 6,
+    "category": "Reptile",
+    "mode": "Easy",
+    "translation": "سحلية"
+  },
+  {
+    "name": "Koala",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "كوالا"
+  },
+  {
+    "name": "Kangaroo",
+    "length": 8,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "كنغر"
+  },
+  {
+    "name": "Iguana",
+    "length": 6,
+    "category": "Reptile",
+    "mode": "Easy",
+    "translation": "إيجوانا"
+  },
+  {
+    "name": "Llama",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "لاما"
+  },
+  {
+    "name": "Chinchillas",
+    "length": 11,
+    "category": "Mammal",
+    "mode": "Hard",
+    "translation": "تشنجلا"
+  },
+  {
+    "name": "Dodo",
+    "length": 4,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "دودو"
+  },
+  {
+    "name": "Jellyfish",
+    "length": 9,
+    "category": "Aquatic",
+    "mode": "Hard",
+    "translation": "قنديل البحر"
+  },
+  {
+    "name": "Rhinoceros",
+    "length": 9,
+    "category": "Mammal",
+    "mode": "Hard",
+    "translation": "وحيد القرن"
+  },
+  {
+    "name": "Hedgehog",
+    "length": 8,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "قنفذ"
+  },
+  {
+    "name": "Possum",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "أوبوسوم"
+  },
+  {
+    "name": "Wombat",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "وومبات"
+  },
+  {
+    "name": "Bison",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "بيسون"
+  },
+  {
+    "name": "Bull",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "ثور"
+  },
+  {
+    "name": "Sheep",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "خروف"
+  },
+  {
+    "name": "Meerkat",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "سنجاب الصحراء"
+  },
+  {
+    "name": "Mouse",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "فأر"
+  },
+  {
+    "name": "Otter",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "نهري"
+  },
+  {
+    "name": "Sloth",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "كسلان"
+  },
+
+  {
+    "name": "Owl",
+    "length": 3,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "بومة"
+  },
+  {
+    "name": "Vulture",
+    "length": 7,
+    "category": "Bird",
+    "mode": "Average",
+    "translation": "نسر"
+  },
+  {
+    "name": "Flamingo",
+    "length": 7,
+    "category": "Bird",
+    "mode": "Average",
+    "translation": "فلامنغو"
+  },
+  {
+    "name": "Racoon",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "راكون"
+  },
+  {
+    "name": "Mole",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "خلد"
+  },
+  {
+    "name": "Duck",
+    "length": 4,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "بطة"
+  },
+  {
+    "name": "Swan",
+    "length": 4,
+    "category": "Bird",
+    "mode": "Easy",
+    "translation": "البجعة"
+  },
+  {
+    "name": "Lynx",
+    "length": 4,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "لينكس"
+  },
+
+  {
+    "name": "Elk",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "وحيش"
+  },
+  {
+    "name": "Lemur",
+    "length": 5,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "ليمور"
+  },
+  {
+    "name": "Baboon",
+    "length": 6,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "بابون"
+  },
+  {
+    "name": "Mammoth",
+    "length": 7,
+    "category": "Mammal",
+    "mode": "Average",
+    "translation": "الماموث"
+  },
+  {
+    "name": "Blue whale",
+    "length": 9,
+    "category": "Aquatic",
+    "mode": "Hard",
+    "translation": "الحوت الأزرق"
+  },
+  {
+    "name": "Rat",
+    "length": 3,
+    "category": "Mammal",
+    "mode": "Easy",
+    "translation": "جرذ"
+  },
+  {
+    "name": "Snake",
+    "length": 5,
+    "category": "Reptile",
+    "mode": "Easy",
+    "translation": "ثعبان"
+  },
+  {
+    "name": "Peacock",
+    "length": 7,
+    "category": "Bird",
+    "mode": "Average",
+    "translation": "طاووس"
+  },
+
+  {
+    "name": "Red",
+    "length": 3,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "أحمر"
+  },
+  {
+    "name": "Blue",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "أزرق"
+  },
+  {
+    "name": "Green",
+    "length": 5,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "أخضر"
+  },
+  {
+    "name": "Yellow",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "أصفر"
+  },
+  {
+    "name": "Orange",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "برتقالي"
+  },
+  {
+    "name": "Purple",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "أرجواني"
+  },
+  {
+    "name": "Pink",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "وردي"
+  },
+  {
+    "name": "Brown",
+    "length": 5,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "بني"
+  },
+  {
+    "name": "Black",
+    "length": 5,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "أسود"
+  },
+  {
+    "name": "White",
+    "length": 5,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "أبيض"
+  },
+  {
+    "name": "Gray",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "رمادي"
+  },
+  {
+    "name": "Cyan",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "سيان"
+  },
+  {
+    "name": "Magenta",
+    "length": 7,
+    "category": "Color",
+    "mode": "Hard",
+    "translation": "أرجواني"
+  },
+  {
+    "name": "Turquoise",
+    "length": 8,
+    "category": "Color",
+    "mode": "Hard",
+    "translation": "تركواز"
+  },
+  {
+    "name": "Lavender",
+    "length": 8,
+    "category": "Color",
+    "mode": "Hard",
+    "translation": "لافندر"
+  },
+  {
+    "name": "Maroon",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "قرمزي"
+  },
+  {
+    "name": "Teal",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "تيل"
+  },
+  {
+    "name": "Olive",
+    "length": 5,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "زيتوني"
+  },
+  {
+    "name": "Sapphire",
+    "length": 8,
+    "category": "Color",
+    "mode": "Hard",
+    "translation": "ياقوت"
+  },
+  {
+    "name": "Emerald",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "زمردي"
+  },
+  {
+    "name": "Violet",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "بنفسجي"
+  },
+  {
+    "name": "Gold",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "ذهبي"
+  },
+  {
+    "name": "Silver",
+    "length": 6,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "فضي"
+  },
+  {
+    "name": "Crimson",
+    "length": 7,
+    "category": "Color",
+    "mode": "Hard",
+    "translation": "قرمزي"
+  },
+  {
+    "name": "Ruby",
+    "length": 4,
+    "category": "Color",
+    "mode": "Easy",
+    "translation": "عقيق"
+  },
+  {
+    "name": "Topaz",
+    "length": 5,
+    "category": "Color",
+    "mode": "Average",
+    "translation": "توباز"
+  },
+
+  {
+    "name": "Apple",
+    "length": 5,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "تفاحة"
+  },
+  {
+    "name": "Banana",
+    "length": 6,
+    "category": "Fruit",
+    "mode": "Average",
+    "translation": "موزة"
+  },
+  {
+    "name": "Orange",
+    "length": 6,
+    "category": "Fruit",
+    "mode": "Average",
+    "translation": "برتقال"
+  },
+  {
+    "name": "Strawberry",
+    "length": 10,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "فراولة"
+  },
+  {
+    "name": "Grapes",
+    "length": 6,
+    "category": "Fruit",
+    "mode": "Average",
+    "translation": "عنب"
+  },
+  {
+    "name": "Watermelon",
+    "length": 10,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "بطيخ"
+  },
+  {
+    "name": "Pineapple",
+    "length": 9,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "أناناس"
+  },
+  {
+    "name": "Mango",
+    "length": 5,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "مانجو"
+  },
+  {
+    "name": "Kiwi",
+    "length": 4,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "كيوي"
+  },
+  {
+    "name": "Peach",
+    "length": 5,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "خوخة"
+  },
+  {
+    "name": "Pear",
+    "length": 4,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "كمثرى"
+  },
+  {
+    "name": "Cherry",
+    "length": 6,
+    "category": "Fruit",
+    "mode": "Average",
+    "translation": "كرز"
+  },
+  {
+    "name": "Blueberry",
+    "length": 8,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "توت أزرق"
+  },
+  {
+    "name": "Raspberry",
+    "length": 8,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "توت أحمر"
+  },
+  {
+    "name": "Blackberry",
+    "length": 9,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "توت أسود"
+  },
+  {
+    "name": "Cranberry",
+    "length": 8,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "توت عليق"
+  },
+  {
+    "name": "Avocado",
+    "length": 7,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "أفوكادو"
+  },
+  {
+    "name": "Apricot",
+    "length": 6,
+    "category": "Fruit",
+    "mode": "Average",
+    "translation": "مشمش"
+  },
+  {
+    "name": "Plum",
+    "length": 4,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "برقوق"
+  },
+  {
+    "name": "Fig",
+    "length": 3,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "تين"
+  },
+  {
+    "name": "Guava",
+    "length": 5,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "جوافة"
+  },
+  {
+    "name": "Dragonfruit",
+    "length": 12,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "فاكهة التنين"
+  },
+  {
+    "name": "Passionfruit",
+    "length": 12,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "فاكهة العاطفة"
+  },
+  {
+    "name": "Melon",
+    "length": 5,
+    "category": "Fruit",
+    "mode": "Easy",
+    "translation": "بطيخة"
+  },
+  {
+    "name": "Cantaloupe",
+    "length": 9,
+    "category": "Fruit",
+    "mode": "Hard",
+    "translation": "كانتالوب"
+  },
+
+  {
+    "name": "Soccer",
+    "length": 6,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "كرة القدم"
+  },
+  {
+    "name": "Basketball",
+    "length": 10,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "كرة السلة"
+  },
+  {
+    "name": "Tennis",
+    "length": 6,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "تنس"
+  },
+  {
+    "name": "Cricket",
+    "length": 7,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "كريكيت"
+  },
+  {
+    "name": "Golf",
+    "length": 4,
+    "category": "Sport",
+    "mode": "Easy",
+    "translation": "جولف"
+  },
+  {
+    "name": "Baseball",
+    "length": 8,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "بيسبول"
+  },
+  {
+    "name": "Hockey",
+    "length": 6,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "هوكي"
+  },
+  {
+    "name": "Volleyball",
+    "length": 10,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "كرة الطائرة"
+  },
+  {
+    "name": "Swimming",
+    "length": 8,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "السباحة"
+  },
+  {
+    "name": "Athletics",
+    "length": 9,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "العاب القوى"
+  },
+
+  {
+    "name": "Cycling",
+    "length": 7,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "ركوب الدراجات"
+  },
+  {
+    "name": "Wrestling",
+    "length": 8,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "المصارعة"
+  },
+  {
+    "name": "Boxing",
+    "length": 5,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "الملاكمة"
+  },
+  {
+    "name": "Rugby",
+    "length": 5,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "الرغبي"
+  },
+  {
+    "name": "Snowboarding",
+    "length": 12,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "تزلج على الجليد"
+  },
+  {
+    "name": "Skating",
+    "length": 7,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "التزحلق"
+  },
+  {
+    "name": "Archery",
+    "length": 7,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "الرماية"
+  },
+  {
+    "name": "Surfing",
+    "length": 7,
+    "category": "Sport",
+    "mode": "Hard",
+    "translation": "ركوب الأمواج"
+  },
+  {
+    "name": "Diving",
+    "length": 5,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "الغوص"
+  },
+  {
+    "name": "Football",
+    "length": 8,
+    "category": "Sport",
+    "mode": "Average",
+    "translation": "كرة القدم"
+  }
+]
