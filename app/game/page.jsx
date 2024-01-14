@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+// import styles from "./page.module.css";
 import _ from "lodash";
 import { useRouter } from "next/navigation";
 import eng from "../../eng.json";
@@ -41,6 +42,10 @@ export default function Home() {
     dataLetters.current.children[2].innerHTML = dataWord.mode;
   }
   function generateInputs() {
+    const sound = new Audio();
+    sound.src = "/sounds/start.wav";
+    sound.play();
+
     generateNum();
     checkBtn.current.disabled = true;
     for (let i = 1; i <= numberTry; i++) {
@@ -74,6 +79,10 @@ export default function Home() {
     const inputs = document.querySelectorAll("input");
     inputs.forEach((input, index) => {
       input.oninput = () => {
+        const sound = new Audio();
+        sound.src = "/sounds/write.wav";
+        sound.play();
+
         checkBtn.current.disabled = false;
         const next = inputs[index + 1];
         const prev = inputs[index - 1];
@@ -134,18 +143,24 @@ export default function Home() {
     const still = _.difference(arrayWord, arrayLetters);
 
     if (result === true && still.length <= 0) {
-      checkBtn.current.disabled = true;
-      hintBtn.current.disabled = true;
-      setchange(true);
+      setTimeout(() => {
+        checkBtn.current.disabled = true;
+        hintBtn.current.disabled = true;
+        setchange(true);
 
-      tip.innerHTML = `
+        tip.innerHTML = `
           <p>${randomWord.toUpperCase()}</p>
           <p>${dataWord.translation}</p>
           <img src="/pics/congrats.png" alt="win" />
           `;
-      tip.classList.add("win");
-      tip.classList.remove("almost");
-      tip.classList.remove("lose");
+        tip.classList.add("win");
+        tip.classList.remove("almost");
+        tip.classList.remove("lose");
+
+        const sound = new Audio();
+        sound.src = "/sounds/win.wav";
+        sound.play();
+      }, 800);
     } else if (still.length > percent) {
       tip.innerHTML = `Wrong!, Try Again ..`;
       tip.classList.add("lose");
@@ -180,21 +195,35 @@ export default function Home() {
       if (tryNext) {
         tryNext.classList.remove("input-disabled");
         tryNext.children[1].focus();
-      } else {
-        checkBtn.current.disabled = true;
-        hintBtn.current.disabled = true;
-        setchange(true);
 
-        tip.innerHTML = `
+        const sound = new Audio();
+        sound.src = "/sounds/next.wav";
+        sound.play();
+      } else {
+        setTimeout(() => {
+          checkBtn.current.disabled = true;
+          hintBtn.current.disabled = true;
+          setchange(true);
+
+          tip.innerHTML = `
         <p>${randomWord.toUpperCase()}</p>
         <p>${dataWord.translation}</p>
         <img src="/pics/good-luck.png" alt="win" />
         
         `;
-        tip.classList.add("losing");
-        tip.classList.remove("lose");
+          tip.classList.add("losing");
+          tip.classList.remove("lose");
+
+          const sound = new Audio();
+          sound.src = "/sounds/lose.wav";
+          sound.play();
+        }, 800);
       }
     }
+
+    const sound = new Audio();
+    sound.src = "/sounds/check.wav";
+    sound.play();
 
     console.log(percent, still, result);
     console.log(arrayLetters, arrayWord, result, still);
@@ -205,6 +234,9 @@ export default function Home() {
       numberHint--;
       hintBtn.current.children[0].innerHTML = numberHint;
       checkBtn.current.disabled = false;
+      const sound = new Audio();
+      sound.src = "/sounds/hint.wav";
+      sound.play();
     }
     if (numberHint === 0) {
       hintBtn.current.disabled = true;
@@ -213,7 +245,7 @@ export default function Home() {
     const enable = document.querySelectorAll("input:not([disabled])");
     const empty = Array.from(enable).filter((elem) => elem.value === "");
     if (empty.length > 0) {
-      empty[0].focus();
+      // empty[0].focus();
       const randomIndex = Math.floor(Math.random() * empty.length);
       const randomInput = empty[randomIndex];
       const fill = Array.from(enable).indexOf(randomInput);
@@ -240,7 +272,7 @@ export default function Home() {
             onClick={() => {
               setchange(false);
               // setinfo(false);
-              router.push("/game");
+              router.push("/");
             }}
           >
             <img src="/pics/cancel.png" />
@@ -257,6 +289,10 @@ export default function Home() {
                 info.current.classList.remove("info");
               }
               console.log(info.current);
+
+              const sound = new Audio();
+              sound.src = "/sounds/info.wav";
+              sound.play();
             }}
           >
             <i className="fi fi-rr-comment-info"></i>
