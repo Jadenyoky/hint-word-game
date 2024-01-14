@@ -1,5 +1,1140 @@
 [
   {
+    "name": "96",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "23",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "19",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "62",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "40",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "75",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "32",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "94",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "60",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "85",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "54",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "27",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "16",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "91",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "99",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "82",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "48",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "80",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "10",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "90",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "17",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "51",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "78",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "98",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "33",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "65",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "73",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "52",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "100",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Legend!"
+  },
+  {
+    "name": "20",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "70",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "7418156",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1580084",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "7210286",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6258428",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1527893",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "4489205",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "4667221",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5043088",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "4282846",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6199952",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "3448027",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "859177",
+    "length": 6,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "5864188",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "480504",
+    "length": 6,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "1151991",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "4614909",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "7269899",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "4682754",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "8460531",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "3009953",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5971675",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "7379109",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "642077",
+    "length": 6,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "9683058",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1653769",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "2785725",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5809519",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "3367939",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "3576868",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5159542",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "4499605",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5969688",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5751538",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "357963",
+    "length": 6,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "2963936",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "2125987",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6403189",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "3716855",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "273826",
+    "length": 6,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "9756449",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1613024",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "9873252",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "6065206",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6814778",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "4309043",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "5894",
+    "length": 4,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "9857",
+    "length": 4,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "9036",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "9219",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "2100",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6714",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "7372",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "221",
+    "length": 3,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "7162",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "5786",
+    "length": 4,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "1433",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1238",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "7985",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1539",
+    "length": 4,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6405",
+    "length": 4,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "2335",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "4396",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "8024",
+    "length": 4,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Nice!"
+  },
+  {
+    "name": "3822",
+    "length": 4,
+    "category": "Number",
+    "mode": "Nice!",
+    "translation": "Nice!"
+  },
+  {
+    "name": "9994",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "1458",
+    "length": 4,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "8128445",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "5732533",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "1021089",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "4703292",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "3742492",
+    "length": 7,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6440311",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "57072",
+    "length": 5,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "1336724",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "74172",
+    "length": 5,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "6694210",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "8937673",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "181292",
+    "length": 6,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "9966856",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "4219697",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "5529701",
+    "length": 7,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "794",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "569",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "83",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "393",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "797",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "599",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "452",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "568",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "458",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "641",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "715",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "96",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "467",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "283",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "25",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "244",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "586",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "878",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "787",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "177",
+    "length": 3,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "951",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "235",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "374",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "289",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "867",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "416",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "751",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "902",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "363",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "678",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "260",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "23",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "537",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "239",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "436",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "295",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "155",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "415",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "396",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "499",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "963",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "474",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "624",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "94",
+    "length": 2,
+    "category": "Number",
+    "mode": "Easy",
+    "translation": "Nice!"
+  },
+  {
+    "name": "371",
+    "length": 3,
+    "category": "Number",
+    "mode": "Average",
+    "translation": "Great!"
+  },
+  {
+    "name": "2865126",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "2771766",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "6911228",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "7041566",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+  {
+    "name": "7418156",
+    "length": 7,
+    "category": "Number",
+    "mode": "Hard",
+    "translation": "Legend!"
+  },
+
+  {
     "name": "Afghanistan",
     "length": 11,
     "category": "Asia",
