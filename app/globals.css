@@ -151,7 +151,7 @@ body {
   caret-color: rgb(24, 146, 228);
   color: coral;
   animation: aaa 1s;
-  /*font-weight: bold;*/
+  font-weight: bold;
   transition: 0.4s ease;
 
   border-radius: 50px;
