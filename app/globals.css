@@ -151,12 +151,12 @@ body {
   caret-color: rgb(24, 146, 228);
   color: coral;
   animation: aaa 1s;
-  font-weight: bold;
+  /*font-weight: bold;*/
   transition: 0.4s ease;
 
   border-radius: 50px;
 
-  font-family: bold !important;
+  /*font-family: bold !important;*/
 }
 
 @keyframes aaa {
@@ -178,21 +178,21 @@ body {
 .right {
   background-color: #0CA68B;
   color: white !important;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 30px !important;
 }
 
 .not-place {
   background-color: #FF9C0C;
   color: white !important;
-  font-weight: bold;
+ /* font-weight: bold;*/
   font-size: 30px !important;
 }
 
 .wrong {
   background-color: #FC2903;
   color: white !important;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 30px !important;
   position: relative;
 }
