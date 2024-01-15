@@ -46,7 +46,7 @@ export default function Home() {
     numberHint = rr.toFixed();
     hintBtn.current.children[0].innerHTML = numberHint;
     dataLetters.current.children[0].innerHTML = dataWord.category;
-    dataLetters.current.children[1].innerHTML = dataWord.length;
+    dataLetters.current.children[1].innerHTML = dataWord.name.length;
     dataLetters.current.children[2].innerHTML = dataWord.mode;
     score.current.innerHTML = `SCORE : <span>${scored}</span>`;
   }
@@ -154,13 +154,43 @@ export default function Home() {
     if (result === true && still.length <= 0) {
       setTimeout(() => {
         if (dataWord.mode === "Hard") {
-          scored += 100;
+          if (currentTry === 1) {
+            scored += 100;
+          } else if (currentTry === 2) {
+            scored += 80;
+          } else if (currentTry === 3) {
+            scored += 65;
+          } else if (currentTry === 4) {
+            scored += 50;
+          } else if (currentTry === 5) {
+            scored += 40;
+          }
           store("score", scored);
         } else if (dataWord.mode === "Average") {
-          scored += 50;
+          if (currentTry === 1) {
+            scored += 75;
+          } else if (currentTry === 2) {
+            scored += 60;
+          } else if (currentTry === 3) {
+            scored += 45;
+          } else if (currentTry === 4) {
+            scored += 35;
+          } else if (currentTry === 5) {
+            scored += 25;
+          }
           store("score", scored);
         } else if (dataWord.mode === "Easy") {
-          scored += 25;
+          if (currentTry === 1) {
+            scored += 50;
+          } else if (currentTry === 2) {
+            scored += 40;
+          } else if (currentTry === 3) {
+            scored += 30;
+          } else if (currentTry === 4) {
+            scored += 20;
+          } else if (currentTry === 5) {
+            scored += 10;
+          }
           store("score", scored);
         }
 
