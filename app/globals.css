@@ -185,7 +185,7 @@ body {
 .not-place {
   background-color: #FF9C0C;
   color: white !important;
- /* font-weight: bold;*/
+  /* font-weight: bold;*/
   font-size: 30px !important;
 }
 
@@ -455,5 +455,53 @@ body {
     margin-top: 10px;
     font-size: 25px;
     font-weight: bold;
+  }
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+
+  .score {
+    text-wrap: nowrap;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 24px;
+    background-color: white;
+    color: grey;
+
+    font-weight: bold;
+    font-family: rubik;
+    animation: aaa 0.5s ease;
+
+    span {
+      color: #0CA68B;
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    border-radius: 24px;
+    outline: none;
+    border: 0;
+    background-color: #0CA68B;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: rubik;
+    animation: aaa 0.5s ease;
+
+    &:disabled {
+      background-color: #0CA68B70;
+    }
   }
 }

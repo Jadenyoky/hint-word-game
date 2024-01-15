@@ -1,17 +1,21 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import styles from "./page.module.css";
+// import styles from "./page.module.css";
 import _ from "lodash";
 import { useRouter } from "next/navigation";
 import eng from "../eng.json";
-
+import store from "store2";
 export default function Home() {
-  console.log(eng);
+  const scoreSaved = store("score");
+  let scored = scoreSaved ? scoreSaved : 0;
+
   const router = useRouter();
   const letters = useRef();
   const checkBtn = useRef();
   const hintBtn = useRef();
   const info = useRef();
+  const score = useRef();
+  const reset = useRef();
   const dataLetters = useRef();
   const [change, setchange] = useState(false);
   // const [info, setinfo] = useState(false);
@@ -34,12 +38,17 @@ export default function Home() {
   let arrayWord;
 
   function generateNum() {
+    if (scored === 0) {
+      reset.current.disabled = true;
+    }
+
     const rr = numberLetters / 2;
     numberHint = rr.toFixed();
     hintBtn.current.children[0].innerHTML = numberHint;
     dataLetters.current.children[0].innerHTML = dataWord.category;
     dataLetters.current.children[1].innerHTML = dataWord.length;
     dataLetters.current.children[2].innerHTML = dataWord.mode;
+    score.current.innerHTML = `SCORE : <span>${scored}</span>`;
   }
   function generateInputs() {
     const sound = new Audio();
@@ -144,6 +153,17 @@ export default function Home() {
 
     if (result === true && still.length <= 0) {
       setTimeout(() => {
+        if (dataWord.mode === "Hard") {
+          scored += 100;
+          store("score", scored);
+        } else if (dataWord.mode === "Average") {
+          scored += 50;
+          store("score", scored);
+        } else if (dataWord.mode === "Easy") {
+          scored += 25;
+          store("score", scored);
+        }
+
         checkBtn.current.disabled = true;
         hintBtn.current.disabled = true;
         setchange(true);
@@ -201,6 +221,21 @@ export default function Home() {
         sound.play();
       } else {
         setTimeout(() => {
+          if (dataWord.mode === "Hard") {
+            scored -= 20;
+            store("score", scored);
+          } else if (dataWord.mode === "Average") {
+            scored -= 40;
+            store("score", scored);
+          } else if (dataWord.mode === "Easy") {
+            scored -= 75;
+            store("score", scored);
+          }
+          if (scored < 0) {
+            scored = 0;
+            store("score", scored);
+          }
+
           checkBtn.current.disabled = true;
           hintBtn.current.disabled = true;
           setchange(true);
@@ -318,6 +353,26 @@ export default function Home() {
           </div>
 
           <div className="tip">Typing Letters in Fields ...</div>
+          <div className="status">
+            <div className="score" ref={score}>
+              SCORE : <img width={30} src="/pics/loading.svg" />
+            </div>
+            <button
+              ref={reset}
+              onClick={(e) => {
+                e.target.disabled = true;
+                scored = 0;
+                store("score", scored);
+                score.current.innerHTML = `SCORE : <span>${scored}</span>`;
+
+                const sound = new Audio();
+                sound.src = "/sounds/reset.wav";
+                sound.play();
+              }}
+            >
+              Reset
+            </button>
+          </div>
         </div>
 
         <div ref={info} className="displaynone">
