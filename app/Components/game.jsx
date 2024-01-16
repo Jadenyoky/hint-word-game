@@ -389,7 +389,6 @@ export default function Home({ setchange }) {
               Reset
             </button>
           </div>
-        </div>
 
        
         </div>
