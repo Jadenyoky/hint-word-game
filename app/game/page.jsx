@@ -48,6 +48,16 @@ export default function Home() {
         )}
       </div>
       <Game setchange={setchange} />
+
+ <div ref={info} className="displaynone">
+          <p>Key Colors</p>
+          <div className="colors">
+            <div className="letter-right">Letter is right and place</div>
+            <div className="letter-place">Letter is right but not in place</div>
+            <div className="letter-wrong">
+              Letter is wrong and not exist in word
+            </div>
+          </div>
     </main>
   );
 }
