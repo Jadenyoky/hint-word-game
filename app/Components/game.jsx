@@ -369,6 +369,7 @@ export default function Home({ setchange }) {
           </div>
 
           <div className="tip">Typing Letters in Fields ...</div>
+
           <div className="status">
             <div className="score" ref={score}>
               SCORE : <img width={30} src="/pics/loading.svg" />
@@ -389,8 +390,6 @@ export default function Home({ setchange }) {
               Reset
             </button>
           </div>
-
-       
         </div>
       </div>
     </main>
